@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    color: #F9FAF8;
+    
+}
+*{
+    margin: 0;
+}
+.header, .layer-one, .footer{
+    background-color: #1F2937;
+    font-family: sans-serif;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding-top: 15px;
+}
+#imagine_bitcoin{
+    width: 350px;
+    height: auto;
+    position: relative;
+    left: -350px;
+    border-radius: 5px;
+    top: 10px
+}
+.partea_de_sus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -170px;
+}
+ul{
+ justify-content: space-between;
+ cursor: pointer;
+ font-size: 15px;
+}
+#nft{
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    
+}
+.information{
+    width: 50%;
+}
+ 
+#website{
+    width: 70%;
+    margin-bottom: 10px;
+}
+#text{
+    margin-bottom: 10px;
+}
+#up-button{
+    background-color: royalblue;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+#logo{
+    font-weight: bold;
+    font-size: 30px;
+}
+.left-part-header{
+    
+}
+.layer-two{
+    color:#1F2937 ;
+    font-family: sans-serif;
+    margin-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.box-one,.box-two,.box-three,.box-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.box1,.box2,.box3,.box4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border-style:solid ;
+    border-color: royalblue;
+    margin-bottom: 5px;
+}
+
+#random-information{
+    padding: 25px;
+}
+
+.layer-three{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: light italic;
+    font-size: 30px;
+    font-weight: 100;
+    color: #1F2937;
+    padding: 30px;
+}
+#quote{
+    width: 60%;
+    text-align: start;
+}
+
+#author{
+   display: flex;
+    
+}
+.layer-four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-family: sans-serif;
+}
+.blue-box{
+    background-color: rgb(30, 101, 223);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+
+}
+
+#down-button{
+    background-color:  rgb(30, 101, 223);
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 6px;
+    width: 90px;
+    color:white;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-family: sans-serif;
+}
